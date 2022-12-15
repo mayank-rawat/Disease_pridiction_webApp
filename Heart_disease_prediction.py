@@ -20,7 +20,7 @@ def heart_disease_prediction(input_data):
     # change the input data to numpy array
     input_data_numpy = np.asarray(input_data)
     
-    data = np.array(input_data_numpy, dtype=int) #  convert using numpy
+    data = np.array(input_data_numpy, dtype=float) #  convert using numpy
 
     # Reshape the numpy array as we are pridicting for a instance 
     input_data_reshaped = data.reshape(1, -1)
